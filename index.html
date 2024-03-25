@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonlightX Launcher</title>
+    <style>
+        #launchButton {
+            font-size: 20px;
+            padding: 20px 40px;
+            cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+    <div style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <button id="launchButton">Launch MoonlightX</button>
+    </div>
+    <script>
+    document.getElementById('launchButton').addEventListener('click', function() {
+        window.open('https://github.com/RebornEnder/moonlightfork/tree/main/moonlight', 'MoonlightX', 'width=640,height=480');
+    });
+    </script>
+  </body>
+</html>
